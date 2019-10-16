@@ -53,3 +53,12 @@ if(!class_exists('WP_G_Suite_App'))
         } // END public static function deactivate
     } // END class WP_G_Suite_App
 } // END if(!class_exists('WP_G_Suite_App'))
+if(class_exists('WP_G_Suite_App'))
+{
+    // Installation and uninstallation hooks
+    register_activation_hook(__FILE__, array('WP_G_Suite_App', 'activate'));
+    register_deactivation_hook(__FILE__, array('WP_G_Suite_App', 'deactivate'));
+
+    // instantiate the plugin class
+    $wp_plugin_template = new WP_G_Suite_App ();
+}
