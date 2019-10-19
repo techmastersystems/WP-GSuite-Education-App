@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: WP G Suite for Education App
-Plugin URI: https://github.com/techmastersystems/WPGSuiteApp/
+Plugin Name: WP G Suite Apps For Education
+Plugin URI: https://github.com/techmastersystems/WP-GSuite-Education-App/
 Description: A simple WordPress plugin template
 Version: 1.0
 Author: Junior MOISE
